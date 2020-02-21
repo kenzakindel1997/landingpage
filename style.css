@@ -1,0 +1,143 @@
+
+body{background-color:#f6eec7;
+
+}
+
+
+.btn-discover{
+	background-color:#f7d695; 
+    padding: 20px 40px;
+    box-shadow: 2px  2px 5px rgba(30,20,10,0.3);
+    border-radius: 10px;
+    text-decoration: none;
+    color: #d15a7c;
+    font-weight: bold;
+    font-family: Raleway;
+    font-size: 20px;
+    margin : 70px ;
+}
+
+.logo { border-radius: 10px;
+	padding: 20px 20px;
+	background-color: #f7d695;
+	margin : 50px;
+	max-width: 90%;
+	
+}
+
+.partenaire{
+	padding: 20px 20px;
+	background-color: #f7d695;
+	height: 40px ;
+	margin : 15px;
+}
+
+.airsqreen{
+	border-radius: 20px;
+	padding: 20px 20px;
+	background-color: #f7d695;
+	max-width: 90%;
+	margin-bottom: 25px;
+	margin-top: 50px
+}
+
+
+h2 {
+	font-family: Raleway;
+    font-size: 40;
+    color: #d15a7c;
+    margin: 30px;
+
+}
+
+h1{font-family: Anton;
+   font-size:50px;
+   color:#d15a7c;
+   margin-top: 20px;
+   margin-bottom: 5px;
+    }
+
+h3{
+	font-family: Raleway;
+    font-size: 25px;
+    color:#d15a7c;
+    margin : 15px; 
+}
+
+
+
+
+.main-container{
+	width: 800px;
+	margin: 0 auto;
+}
+
+.bouton{
+	background-color:#d15a7c; 
+    padding: 20px 40px;
+    box-shadow: 2px  2px 5px rgba(30,20,10,0.3);
+    border-radius: 10px;
+    color: #f6eec7;
+    font-weight: bold;
+    font-family: Raleway;
+}
+
+
+
+
+.follow{
+	display: flex;
+
+}
+
+
+.typeform{
+	background-color:#d15a7c; 
+    padding: 20px 40px;
+    box-shadow: 2px  2px 5px rgba(30,20,10,0.3);
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: Raleway;
+    color:#f7d695;
+    font-size:30px;
+    margin:50px;
+}
+
+
+@media (max-width: 540px) {
+  .follow { 
+    width: 400px;
+    flex-direction: column-reverse;
+    font-size:20px;
+  }
+  .btn-discover{
+  	font-size: 16px;
+  	padding: 8px 12px;
+  }
+  .airsqreen{
+    width: 500px;
+ }
+  .typeform{
+    width: 50px;
+}
+   .bouton{
+   	width: 100px;
+   }
+   .main-container{
+   	width: 100%;
+   }
+   h3{font-size: 20px;}
+   h1{font-size: 30px;}
+   h2{font-size: 20px;}
+ 
+
+   .partenaire{
+   	width: 10%;
+   }
+
+   .logo{
+   	width:20%;
+
+   }
+
+}
